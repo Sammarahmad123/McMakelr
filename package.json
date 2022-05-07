@@ -1,0 +1,27 @@
+{
+  "name": "mcmakler",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "basic_test": "mocha --timeout=0 --recursive 'src/tests/basic_tests.js'",
+    "E2E_test": "mocha --timeout=0 --recursive 'src/tests/E2E_tests.js'",
+    "all_tests": "mocha --timeout=0 --recursive 'src/tests'"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^13.7.0",
+    "mocha": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.6.0",
+    "eslint-config-checkly": "0.0.5",
+    "eslint-plugin-mocha": "^4.12.1",
+    "file-system": "^2.2.2",
+    "jest": "^21.2.1",
+    "js-comments": "^0.5.4",
+    "lodash": "^4.17.19"
+  }
+}
