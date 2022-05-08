@@ -12,8 +12,38 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "puppeteer": "^13.7.0",
-    "mocha": "^5.2.0"
+    "allure-commandline": "^2.13.0",
+    "archiver": "^5.0.0",
+    "chai": "^4.2.0",
+    "command-line-args": "^5.1.1",
+    "csv-parse": "^4.10.1",
+    "delay": "^4.3.0",
+    "dir-compare": "^2.2.0",
+    "dotenv": "^8.2.0",
+    "exceljs": "^4.1.1",
+    "execution-time": "^1.4.1",
+    "extract-zip": "^2.0.1",
+    "form-data": "^3.0.0",
+    "fs-extra": "^9.0.0",
+    "gif-creation-service": "0.0.2",
+    "glob": "^7.1.6",
+    "jsdoc": "^3.6.4",
+    "lodash": "^4.17.20",
+    "log4js": "^6.3.0",
+    "mime-types": "^2.1.27",
+    "mkdirp": "^1.0.4",
+    "mocha": "^8.0.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^5.0.0",
+    "mysql": "^2.18.1",
+    "node-emoji": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "nodemailer": "^6.4.2",
+    "playwright": "^1.1.1",
+    "prettydiff": "^101.2.6",
+    "puppeteer": "^3.1.0",
+    "puppeteer-core": "^1.9.0",
+    "xmlbuilder": "^15.1.1"
   },
   "devDependencies": {
     "eslint": "^7.6.0",
@@ -22,6 +52,7 @@
     "file-system": "^2.2.2",
     "jest": "^21.2.1",
     "js-comments": "^0.5.4",
-    "lodash": "^4.17.19"
+    "lodash": "^4.17.19",
+    "wd": "^1.14.0"
   }
 }
